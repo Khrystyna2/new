@@ -1120,6 +1120,14 @@ body {
 
 @media only screen and (max-width: 576px) {
 
+    .menu li a, .menu li > div {
+        padding: 12px 5px;
+    }
+
+    .menu-dropdown > li a {
+        padding: 6px 15px 6px 10px;
+    }
+
     .competition__title > span {
         font-size: 20px;
     }
