@@ -3,8 +3,8 @@ minute = second * 60,
 hour = minute * 60,
 day = hour * 24;
 
-let countDownStart = new Date('Dec 05 2018 00:00:00').getTime();
-let countDownEnd = new Date('Dec 07 2018 00:00:00').getTime();
+let countDownStart = new Date('Feb 01 2019 00:00:00').getTime();
+let countDownEnd = new Date('Mar 01 2019 00:00:00').getTime();
 let x = setInterval(function() {
 
         let now = new Date().getTime();
