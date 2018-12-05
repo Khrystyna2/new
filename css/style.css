@@ -158,6 +158,7 @@ body {
 .menu-dropdown > li a > span {
     padding-right: 20px;
     display: block;
+    max-width: 85%;
 }
 
 .menu-dropdown > li a > img {
@@ -249,6 +250,8 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
         justify-content: center;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
     color: #548dd0;
     font-weight: 700;
@@ -474,8 +477,14 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -574,8 +583,14 @@ body {
 }
 
 .full-desc-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 230px;
     height: 54px;
@@ -1003,7 +1018,11 @@ body {
     }
 
     .menu li > div {
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
         flex-flow: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
     }
 
@@ -1037,6 +1056,8 @@ body {
     }
 
     .competition-info__steps {
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
         justify-content: flex-start !important;
         padding-bottom: 10px;
         margin-bottom: 10px;
@@ -1120,6 +1141,10 @@ body {
 
 @media only screen and (max-width: 576px) {
 
+    .menu-dropdown > li a > span {
+        max-width: 78%;
+    }
+
     .menu li a, .menu li > div {
         padding: 12px 5px;
     }
@@ -1147,6 +1172,8 @@ body {
     }
 
     .competition-info__desc > ul li {
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
         flex-flow: column;
     }
 
