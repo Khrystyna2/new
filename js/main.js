@@ -34,7 +34,7 @@ let startDate = setInterval(function () {
                         $('#days').text( Math.floor(distance / (day)));
                         $('#hours').text( Math.floor((distance % (day)) / (hour)));
                         $('#minutes').text( Math.floor((distance % (hour)) / (minute)));
-                }
+                }`
         timer(distance);
 
         if (distance < 0) { 
@@ -50,7 +50,7 @@ let startDate = setInterval(function () {
 //         hour = minute * 60,
 //         day = hour * 24;
 
-// let currentYear = new Date().getFullYear();
+// let currentYear = new Date().getFullYear();`
 // let startDate = new Date('Feb 01 ' + currentYear + ' 00:00:00');
 // let endDate = new Date('Mar 01 ' + currentYear + ' 00:00:00');
 // let beforeInterval = null;
